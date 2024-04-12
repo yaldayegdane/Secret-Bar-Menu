@@ -1,0 +1,30 @@
+<html>
+<head>
+    <title>Secret bar Menu</title>
+    <link rel="stylesheet" href="assets/css/styles.css"/>
+    <link rel="stylesheet" href="assets/css/fontawesome/fontawesome.css"/>
+    <link rel="stylesheet" href="assets/css/fontawesome/solid.css"/>
+</head>
+<body>
+    <div class="banner">
+        <div class="container">
+            <div id="filters">
+                <button onclick="filterMenu('all')">All</button>
+                <button onclick="filterMenu('cocktails')">Cocktails</button>
+                <button onclick="filterMenu('whisky')">Whisky</button>
+                <button onclick="filterMenu('tequila')">Tequila</button>
+                
+            </div>
+            <div id="menu">
+                <div class="drink cocktails"><i class="fa-solid fa-wine-glass"></i>Old Fashioned</div>
+                <div class="drink cocktails"><i class="fa-solid fa-martini-glass"></i></i>Martini</div>
+                <div class="drink whisky"><i class="fa-solid fa-whiskey-glass"></i>Gin Fizz</div>
+                <div class="drink whisky"><i class="fa-solid fa-wine-bottle"></i>Manhattan</div>
+                <div class="drink tequila"><i class="fa-solid fa-martini-glass-citrus"></i>Tom Collins</div>
+                <div class="drink tequila"><i class="fa-solid fa-beer-mug-empty"></i>Bohemian Primero</div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
